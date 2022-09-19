@@ -3,8 +3,10 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-                
                 <div className="collapse navbar-collapse" id="navbarNav">
+                    <div className="logo">
+                        <h3>adsocrypto</h3>
+                    </div>
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
@@ -29,9 +31,8 @@ const Navbar = () => {
                        <li>
                         
                        </li>
-                    </ul>
-                    
-    </div>
+                    </ul> 
+      </div>
     </div>
   )
 }
