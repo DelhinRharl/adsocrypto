@@ -10,14 +10,20 @@ const Navbar = () => {
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="#">Transactions</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">markets</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">currencies</a>
+                        </li>
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#">Features</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
+                        </li> */}
                     </ul>
                     
     </div>
