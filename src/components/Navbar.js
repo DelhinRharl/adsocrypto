@@ -27,11 +27,7 @@ const Navbar = () => {
                        </button>
                         </li>
                        <li>
-                        <button> 
-                          <li className="nav-item">
-                            <a className="nav-link" href="#">Start</a>
-                            </li>
-                       </button>
+                        
                        </li>
                     </ul>
                     
