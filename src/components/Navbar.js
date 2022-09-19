@@ -18,12 +18,21 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#">currencies</a>
                         </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="#">Features</a>
+                        
+                      <li>
+                         <button> 
+                          <li className="nav-item">
+                            <a className="nav-link" href="#">Sing in</a>
+                            </li>
+                       </button>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
-                        </li> */}
+                       <li>
+                        <button> 
+                          <li className="nav-item">
+                            <a className="nav-link" href="#">Start</a>
+                            </li>
+                       </button>
+                       </li>
                     </ul>
                     
     </div>
