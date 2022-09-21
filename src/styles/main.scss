@@ -75,32 +75,5 @@ body{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    p{
-        color: $color2;
-    }
-
-    .btns{
-        display: flex;
-        gap: inherit;
-       }
-
-        button{
-        background-color: $color3;
-        color: $color1;
-        width: auto;
-        height: 10%;
-        border: none;
-        border-radius: 5px;
-        padding: 10px;
-        font-size: large;
-        cursor: pointer;
-        &:hover{
-            background-color: $color5;
-        }
-    }
     
-        a{
-            text-decoration: none;
-            color: $color1;
-        }
 }
