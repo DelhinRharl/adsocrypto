@@ -4,10 +4,14 @@ $color3: #f3c5c2;
 $color4: #eb8f88;
 $color5: #e3594f;
 
-body {
+body{
     background-color: $color2;
     padding: 0;
     margin: 0;
+    *{
+       padding: 0;
+       margin: 0;
+    }
 }
 
 .nav{
@@ -63,14 +67,40 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5%;
     background-color: $color1;
 
     h1{
          background: -webkit-linear-gradient(45deg, $color2, $color5);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;        
+        -webkit-text-fill-color: transparent;
     }
     p{
         color: $color2;
     }
+
+    .btns{
+        display: flex;
+        gap: inherit;
+       }
+
+        button{
+        background-color: $color3;
+        color: $color1;
+        width: auto;
+        height: 10%;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: large;
+        cursor: pointer;
+        &:hover{
+            background-color: $color5;
+        }
+    }
+    
+        a{
+            text-decoration: none;
+            color: $color1;
+        }
 }

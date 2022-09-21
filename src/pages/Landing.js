@@ -9,15 +9,16 @@ const Landing = () => {
       <h1>
          adsocrypto
       </h1>
-      <div>
          <p>
             Crypto in your pocket
          </p>
-      </div>
-
-      <div className="landing-btn">
+      <div className="btns">
           <button>
-              <a href="Sign Up">Get Started</a>
+              <a href="Sign Up">sign up</a>
+          </button>
+          <p>or</p>
+          <button>
+              <a href="Sign Up">sign in</a>
           </button>
       </div>
     </div>
