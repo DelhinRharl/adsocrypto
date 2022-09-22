@@ -104,8 +104,8 @@ body{
     }
 
     label{
-        color: $color4;
-        font-size: x-large;
+        color: $color2;
+        font-size: 1 rem;
     }
 
     input{
@@ -115,6 +115,15 @@ body{
         outline: none;
         height: 5%;
         width: 70%;
+        background-color: $color3;
+
+        &:focus{
+            background-color: $color4;
+        }
+
+        &::placeholder{
+            color: $color1;
+        }
         
     }
 
@@ -135,9 +144,9 @@ body{
                 height: 40px;
                 border: none;
                 border-radius: 5px;
-                padding: 5%;
+                padding: 1%;
                 outline: none;
-                border: 1px solid $color4;
+                border: none;
                 background-color: $color4;
                 color: $color2;
                 &:hover{

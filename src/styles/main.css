@@ -125,8 +125,8 @@ body * {
 }
 
 .register label {
-  color: #eb8f88;
-  font-size: x-large;
+  color: #fcfcfc;
+  font-size: 1 rem;
 }
 
 .register input {
@@ -136,6 +136,27 @@ body * {
   outline: none;
   height: 5%;
   width: 70%;
+  background-color: #f3c5c2;
+}
+
+.register input:focus {
+  background-color: #eb8f88;
+}
+
+.register input::-webkit-input-placeholder {
+  color: #263141;
+}
+
+.register input:-ms-input-placeholder {
+  color: #263141;
+}
+
+.register input::-ms-input-placeholder {
+  color: #263141;
+}
+
+.register input::placeholder {
+  color: #263141;
 }
 
 .register .form {
@@ -166,9 +187,9 @@ body * {
   height: 40px;
   border: none;
   border-radius: 5px;
-  padding: 5%;
+  padding: 1%;
   outline: none;
-  border: 1px solid #eb8f88;
+  border: none;
   background-color: #eb8f88;
   color: #fcfcfc;
 }
