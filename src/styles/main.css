@@ -107,14 +107,14 @@ body * {
 }
 
 .register h1 {
-  background: -webkit-linear-gradient(45deg, #fcfcfc, #e3594f);
+  background: -webkit-linear-gradient(45deg, #f3c5c2, #e3594f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: 100%;
 }
 
 .register h1:hover {
-  background: -webkit-linear-gradient(60deg, #f3c5c2, #e3594f);
+  background: -webkit-linear-gradient(60deg, #eb8f88, #d91e18);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -122,6 +122,10 @@ body * {
 .register p {
   color: #f3c5c2;
   width: 70%;
+}
+
+.register span {
+  color: #e3594f;
 }
 
 .register label {
