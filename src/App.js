@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       {/* <Signup/> */}
       {/* <Signin/> */}
-      <Landing/>
-      <Currencies/>
-      <Footer />
+      {/* <Landing/> */}
+      {/* <Currencies/> */}
+      {/* <Footer /> */}
     </div>
   );
 }
