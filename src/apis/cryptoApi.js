@@ -1,15 +1,19 @@
-import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react';
+import { createSlice } from "@reduxjs/toolkit";
 
+export const cryptoSlice = createSlice({
+    name: "crypto",
+    initialState: {
+        cryptoCurrencies: [],
+        myCryptoCurrencies: [],
+        status: "idle",
+        error: null,
+    },
+    reducers: {
+        getCryptoCurrencies: (state, action) => {
+            state.cryptoCurrencies = action.payload;
+        }
+    }
+});
 
-const baseUrl = 'https://adsocrypto.herokuapp.com/api'
-
-export const cryptoApi = createApi({
-  reducerPath:'cryptoApi',
-    baseQuery:fetchBaseQuery({baseUrl}),
-    endpoints: (builder) => ({
-        getCryptos:builder.query({
-            query:() => createRequest(`/watchlists`),
-        })
-    })
-})
-export const{useGetCryptosQuery}= cryptoApi;
+export const { getCryptoCurrencies } = cryptoSlice.actions;
+export default cryptoSlice.reducer;
