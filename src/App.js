@@ -8,11 +8,12 @@ import Signup from './pages/Signup';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Signup/>
+      {/* <Navbar /> */}
+      {/* <Signup/> */}
       <Signin/>
-      <Landing/>
-      <Footer />
+      {/* <Landing/> */}
+      {/* <Currencies/> */}
+      {/* <Footer /> */}
     </div>
   );
 }
