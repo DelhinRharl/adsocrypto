@@ -3,7 +3,7 @@ $color2: #fcfcfc;
 $color3: #f3c5c2;
 $color4: #eb8f88;
 $color5: #e3594f;
-$breakpoint : 768px;
+$color6: #d91e18;
 
 body{
     background-color: $color2;
@@ -81,6 +81,7 @@ body{
     
 }
 
+/* sign up page */
 .register{
     display: flex;
     flex-direction: column;
@@ -158,6 +159,89 @@ body{
                 color: $color2;
                 &:hover{
                     background-color: $color5;
+                }
+            }
+        }
+    }
+
+    /* sign in page */
+    .signin{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background: $color1;
+        justify-content: center;
+        padding: 0 5%;
+        gap: 5%;
+         h1{
+        background: -webkit-linear-gradient(45deg, $color3, $color5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 100%;
+        &:hover{
+                   background: -webkit-linear-gradient(60deg, $color4, $color6);
+                    -webkit-background-clip: text;
+                     -webkit-text-fill-color: transparent;
+                }
+    }
+
+    p{
+        color: $color3;
+        width: 70%;
+    }
+
+    span{
+        color: $color5;
+    }
+
+    label{
+        color: $color2;
+        font-size: 1 rem;
+    }
+
+    input{
+        padding: 1%;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        height: 5%;
+        width: 70%;
+        background-color: $color3;
+
+        &:focus{
+            background-color: $color4;
+        }
+
+        &::placeholder{
+            color: $color1;
+        }
+        
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        width: 100%;
+        height: 100vh;
+        background-color: transparent;
+        border-radius: 5px;
+        box-shadow: 0 0 5px $color4;
+        justify-content: center;
+        align-items: center;
+
+            button{
+                width: 50%;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                padding: 1%;
+                outline: none;
+                border: none;
+                background-color: $color5;
+                color: $color2;
+                &:hover{
+                    background-color: $color6;
                 }
             }
         }
