@@ -9,7 +9,7 @@ import Signup from './pages/Signup';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Signup/> */}
       {/* <Signin/> */}
       {/* <Landing/> */}
