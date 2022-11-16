@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar /> */}
-      {/* <Signup/> */}
+      <Signup/>
       {/* <Signin/> */}
       {/* <Landing/> */}
       {/* <Currencies/> */}
