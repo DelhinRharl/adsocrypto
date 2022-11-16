@@ -7,6 +7,8 @@ const Navbar = () => {
             <div className="logo">
                 <h3>adsocrypto</h3>
             </div>
+            <div className="menu">
+            </div>
             <ul className="navbar-nav">
                 <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">home</a>

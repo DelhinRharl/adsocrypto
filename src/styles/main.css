@@ -4,7 +4,11 @@ body {
   margin: 0;
 }
 
-/*nav-bar*/
+body * {
+  padding: 0;
+  margin: 0;
+}
+
 .nav {
   width: 100%;
   height: 8%;
@@ -14,6 +18,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: #263141;
+  /*responsive nav-bar*/
 }
 
 .nav .logo {
@@ -83,5 +88,233 @@ body {
   background: -webkit-linear-gradient(45deg, #fcfcfc, #e3594f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* sign up page */
+.register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background: #263141;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5%;
+  gap: 5%;
+}
+
+.register h1 {
+  background: -webkit-linear-gradient(45deg, #f3c5c2, #e3594f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+}
+
+.register h1:hover {
+  background: -webkit-linear-gradient(60deg, #eb8f88, #d91e18);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.register p {
+  color: #f3c5c2;
+  width: 70%;
+}
+
+.register span {
+  color: #e3594f;
+}
+
+.register label {
+  color: #fcfcfc;
+  font-size: 1 rem;
+}
+
+.register input {
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  height: 5%;
+  width: 70%;
+  background-color: #f3c5c2;
+}
+
+.register input:focus {
+  background-color: #eb8f88;
+}
+
+.register input::-webkit-input-placeholder {
+  color: #263141;
+}
+
+.register input:-ms-input-placeholder {
+  color: #263141;
+}
+
+.register input::-ms-input-placeholder {
+  color: #263141;
+}
+
+.register input::placeholder {
+  color: #263141;
+}
+
+.register .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3%;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #eb8f88;
+          box-shadow: 0 0 5px #eb8f88;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .form button {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 1%;
+  outline: none;
+  border: none;
+  background-color: #eb8f88;
+  color: #fcfcfc;
+}
+
+.register .form button:hover {
+  background-color: #e3594f;
+}
+
+/* sign in page */
+.signin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background: #263141;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5%;
+  gap: 5%;
+}
+
+.signin h1 {
+  background: -webkit-linear-gradient(45deg, #f3c5c2, #e3594f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+}
+
+.signin h1:hover {
+  background: -webkit-linear-gradient(60deg, #eb8f88, #d91e18);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.signin p {
+  color: #f3c5c2;
+  width: 70%;
+}
+
+.signin span {
+  color: #e3594f;
+}
+
+.signin label {
+  color: #fcfcfc;
+  font-size: 1 rem;
+}
+
+.signin input {
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  height: 5%;
+  width: 70%;
+  background-color: #f3c5c2;
+}
+
+.signin input:focus {
+  background-color: #eb8f88;
+}
+
+.signin input::-webkit-input-placeholder {
+  color: #263141;
+}
+
+.signin input:-ms-input-placeholder {
+  color: #263141;
+}
+
+.signin input::-ms-input-placeholder {
+  color: #263141;
+}
+
+.signin input::placeholder {
+  color: #263141;
+}
+
+.signin .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3%;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #eb8f88;
+          box-shadow: 0 0 5px #eb8f88;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signin .form button {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 1%;
+  outline: none;
+  border: none;
+  background-color: #e3594f;
+  color: #fcfcfc;
+}
+
+.signin .form button:hover {
+  background-color: #d91e18;
 }
 /*# sourceMappingURL=main.css.map */
