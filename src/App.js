@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       {/* <Navbar /> */}
       {/* <Signup/> */}
-      <Signin/>
+      {/* <Signin/> */}
       {/* <Landing/> */}
       {/* <Currencies/> */}
       {/* <Footer /> */}
